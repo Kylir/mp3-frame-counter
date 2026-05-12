@@ -1,5 +1,5 @@
 export interface AnalysisResult {
-  [key: string]: unknown;
+  frameCount: number;
 }
 
 // Returns true if the buffer starts with the ID3v2 magic bytes ('ID3').
