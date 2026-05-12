@@ -5,7 +5,7 @@ import { analyzeFile } from './analyzer';
 const app = express();
 const upload = multer({ storage: multer.memoryStorage() });
 
-app.post('/analyze', upload.single('file'), (req, res) => {
+app.post('/file-upload', upload.single('file'), (req, res) => {
   if (!req.file) {
     res.status(400).json({ error: 'No file uploaded' });
     return;

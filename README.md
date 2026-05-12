@@ -28,7 +28,7 @@ The server listens on port 3000 by default. Set the `PORT` environment variable 
 Send a `multipart/form-data` POST request with the MP3 file in the `file` field:
 
 ```bash
-curl -X POST -F "file=@data/sample.mp3" http://localhost:3000/analyze
+curl -X POST -F "file=@data/sample.mp3" http://localhost:3000/file-upload
 ```
 
 Example response:
