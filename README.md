@@ -37,6 +37,14 @@ Example response:
 { "frameCount": 6089 }
 ```
 
+In addition to the sample provided with the brief, we added two more taken from https://github.com/rafaelreis-hotmart/Audio-Sample-files.
+
+They are in the data folder and have the following number of frames according to `mediainfo`:
+
+- sample2.mp3: 5164 frames
+- sanple3.mp3: 6969 frames
+
+
 ---
 
 ## Analyzer functions
